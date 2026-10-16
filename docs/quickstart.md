@@ -2,9 +2,11 @@
 
 ## 第一次使用
 
-打开[示例一](../examples/01-writing/START_HERE.md)。把任务包和[接收方提示词](../prompts/receive-handoff.md)复制给接手的 AI。它需要交出一段实际改稿。
+打开[完整试用示例](../START_HERE.md)，把其中整个文字框复制给接手的 AI。任务、材料、最新决定和交回要求已经放在一起。
 
-收到结果后，先自己对照[检查参考](../examples/01-writing/review.md)。参考展示一种可能的合格输出，措辞可以不同。查看目标、范围和纠正是否被落实，而非要求逐字一样。
+先按同页的四个检查点看结果。想了解详细过程，再阅读[示例一](../examples/01-writing/START_HERE.md)及其[检查参考](../examples/01-writing/review.md)。参考展示一种可能的合格输出，措辞可以不同；需要逐字保留的部分按原文检查。
+
+需要单独组合不同任务时，可以使用[接收方提示词](../prompts/receive-handoff.md)。English quickstart: [README.en.md](../README.en.md).
 
 ## 换成自己的任务
 

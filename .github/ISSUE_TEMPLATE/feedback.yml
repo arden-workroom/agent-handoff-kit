@@ -1,0 +1,29 @@
+name: Usage feedback / 使用反馈
+description: Report a confusing step or suggest a change using a fictional example.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请使用自拟或可公开的材料，移除私人信息、密钥、私人聊天和私人文件链接。
+        Use fictional or public material. Remove private information, credentials, private conversations, and private file links.
+  - type: textarea
+    id: task
+    attributes:
+      label: 想完成什么 / Task
+      description: 用一两句话说明任务，不需要提供完整项目资料。 Describe the task briefly.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 卡在哪里 / Where you got stuck
+      description: 哪个文件、步骤或要求不清楚？可附最小的自拟示例。 Include a small fictional example if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 希望怎样改进 / Expected outcome
+      description: 什么结果或说明会对你有帮助？ What result or explanation would help?
+    validations:
+      required: false
